@@ -1,3 +1,12 @@
+# This file contains code for:
+#     1. Reading the data of Individual Household Electric Power Consumption Data Set from "household_power_consumption.txt" 
+#        File URL: https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+#     2. merge and convert Date and Time columns into one column "full_time".
+#     3. subseet the data using only data from the dates 2007-02-01 and 2007-02-02.
+#     4. producing  line graph for "Date_full" and "Sub_metering_1", "Sub_metering_2" and "Sub_metering_3", 
+#     5. and export the graph to plot2.png file.
+
+
 # Load "household_power_consumption.txt" data into R
 powerData <- read.table(file = "household_power_consumption.txt", 
                         header = TRUE, sep = ";", na.strings = "?",
