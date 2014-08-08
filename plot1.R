@@ -23,5 +23,5 @@ hist(powerDataSubset$Global_active_power,
      xlab = "Global Active Power (Kilowattts)", 
      ylab = "Frequency")
 
-# close to png file:
-dev.off() 
+# close graphic device (PNG)
+dev.off()
